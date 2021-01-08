@@ -5,7 +5,6 @@ static const Block blocks[] = {
 	{" ﬙ ",  "/home/diego/Scripts/dwmblocks/memory",	        6,		            1},
 	{" 﨎 ", "/home/diego/Scripts/dwmblocks/temp",  	        6,		            3},
 	{"",     "/home/diego/Scripts/dwmblocks/volume",			0,		            10},
-	{"",     "/home/diego/Scripts/dwmblocks/brightness",    	0,		            11},
 	{"  ",  "/home/diego/Scripts/dwmblocks/clock",	    		5,		            0},
 };
 
