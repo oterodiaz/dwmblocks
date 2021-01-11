@@ -11,15 +11,15 @@ You can find my scripts [here](https://gitlab.com/Nero20/scripts). (Thanks to Di
 ### Signaling
 Once you have assigned a signal to a specific module in the blocks.def.h (or blocks.h) file, you can signal `dwmblocks` by running:
 
-`kill -{signal_number + 34} $(pidof dwmblocks)`
+`kill -{signal_number + 65} $(pidof dwmblocks)`
 
 Or, for fish users:
 
-`kill -{signal_number + 34} (pidof dwmblocks)`
+`kill -{signal_number + 65} (pidof dwmblocks)`
 
 For example, if I wanted to send the signal 10 to `dwmblocks`, I would run
 
-`kill -44 $(pidof dwmblocks)`
+`kill -75 $(pidof dwmblocks)`
 
 Note: If you want modules to never update on their own, set their time to 0.
 
