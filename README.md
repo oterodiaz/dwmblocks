@@ -6,16 +6,20 @@ Much like `dwm`, `dwmblocks` is configured by modifying blocks.def.h (or blocks.
 
 # Modules
 `dwmblocks` gets its info from shell scripts. Modules can get updated in a certain period of time or by sending a signal to them.
-You can find my scripts [here](https://gitlab.com/Nero20/dotfiles-linux/-/tree/master/Scripts/dwmblocks). (Thanks to Distrotube for some of the scripts)
+You can find my scripts [here](https://gitlab.com/Nero20/scripts). (Thanks to DistroTube for some of the scripts)
 
 ### Signaling
 Once you have assigned a signal to a specific module in the blocks.def.h (or blocks.h) file, you can signal `dwmblocks` by running:
 
-`pkill -{signal_number + 65} dwmblocks`
+`kill -{signal_number + 34} $(pidof dwmblocks)`
+
+Or, for fish users:
+
+`kill -{signal_number + 34} (pidof dwmblocks)`
 
 For example, if I wanted to send the signal 10 to `dwmblocks`, I would run
 
-`pkill -75 dwmblocks`
+`kill -44 $(pidof dwmblocks)`
 
 Note: If you want modules to never update on their own, set their time to 0.
 
