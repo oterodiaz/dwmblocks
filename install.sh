@@ -1,3 +1,3 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
-sudo make clean install && rm -f blocks.h
+make install clean && rm -f blocks.h
