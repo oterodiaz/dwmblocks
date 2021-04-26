@@ -1,5 +1,6 @@
 static const Block blocks[] = {
 	/*Icon*/	        /*Command*/	 	                 /*Update Interval*/  /*Update Signal*/
+    {" ﲅ ", "/home/diego/.local/bin/ic",              		    2,   		        2},
     {"   ", "/home/diego/.scripts/dwmblocks/kernel",		    360,		        2},
 	{" 祥 ", "/home/diego/.scripts/dwmblocks/uptime",	        60,		            2},
 	{" ﬙ ",  "/home/diego/.scripts/dwmblocks/memory",	        6,		            1},
