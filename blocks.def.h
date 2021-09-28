@@ -1,14 +1,14 @@
 static const Block blocks[] = {
     /*Icon*/            /*Command*/                          /*Update Interval*/  /*Update Signal*/
-    {" ﲅ ",  "/home/diego/.local/bin/ic",                        2,                    2},
-    {" ﮊ ",  "/home/diego/.local/bin/lod",                        2,                    2},
-    {"   ", "/home/diego/.scripts/dwmblocks/kernel",           360,                  2},
-    {" 祥 ",  "/home/diego/.scripts/dwmblocks/uptime",            60,                   2},
-    {" ﬙ ",  "/home/diego/.scripts/dwmblocks/memory",           6,                    1},
-    {" 﨎 ",  "/home/diego/.scripts/dwmblocks/temperature",      6,                    3},
-    {"",     "/home/diego/.scripts/dwmblocks/volume_pamixer",   0,                    10},
-    {" ",    "/home/diego/.scripts/dwmblocks/brightness_icon",   0,                    11},
-    {"  ",  "/home/diego/.scripts/dwmblocks/clock",            5,                    0},
+    /* {" ﲅ ",    "$HOME/.local/bin/ic",    2,    2}, */
+    /* {" ﮊ ",    "$HOME/.local/bin/lod",    2,    2}, */
+    {"   ",    "$SCRIPTS/statusbar/kernel",    360,    2},
+    {" 祥 ",    "$SCRIPTS/statusbar/uptime",    60,    2},
+    {" ﬙ ",    "$SCRIPTS/statusbar/memory",    6,    1},
+    {" 﨎 ",    "$SCRIPTS/statusbar/temperature",    6,    3},
+    {"",    "$SCRIPTS/statusbar/volume_pamixer",    0,    10},
+    {" ",    "$SCRIPTS/statusbar/brightness_icon",    0,    11},
+    {"  ",    "$SCRIPTS/statusbar/clock",    5,    0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
