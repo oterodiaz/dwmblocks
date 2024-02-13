@@ -24,19 +24,6 @@ For example, if I wanted to send the signal 10 to `dwmblocks`, I would run
 Note: If you want modules to never update on their own, set their time to 0.
 
 # Installation
-### Clone this repository
-HTTPS:
-
-`git clone https://gitlab.com/nero20/dwmblocks`
-
-SSH:
-
-`git clone git@gitlab.com:Nero20/dwmblocks.git`
-
-### Go into the folder
-`cd dwmblocks`
-
-### Build and install
 This requires root privileges and will install to /usr/local/bin/dwm
 
 `make`
